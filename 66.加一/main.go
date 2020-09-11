@@ -43,6 +43,9 @@ func reverse(array []int) []int {
 }
 
 func main() {
-	num := []int{2, 3, 4, 9, 5, 8, 9, 9}
+	//num := []int{9, 9, 9}
+	//num := []int{1, 9, 9}
+	//num := []int{1, 2, 9}
+	num := []int{1, 2, 3}
 	fmt.Println(plusOne(num))
 }
